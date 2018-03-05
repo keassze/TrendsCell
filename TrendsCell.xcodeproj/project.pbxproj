@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60FFDD117702D6D7625E2CEB /* libPods-TrendsCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 705CA82A5D2AB5E696221A31 /* libPods-TrendsCell.a */; };
 		7277A4B4204D2C5E002A391E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4B3204D2C5E002A391E /* AppDelegate.m */; };
 		7277A4B7204D2C5E002A391E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4B6204D2C5E002A391E /* ViewController.m */; };
 		7277A4BA204D2C5E002A391E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7277A4B8204D2C5E002A391E /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		7277A4C2204D2C5E002A391E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4C1204D2C5E002A391E /* main.m */; };
 		7277A4CC204D2C5E002A391E /* TrendsCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4CB204D2C5E002A391E /* TrendsCellTests.m */; };
 		7277A4D7204D2C5E002A391E /* TrendsCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4D6204D2C5E002A391E /* TrendsCellUITests.m */; };
+		7277A4E8204D2CFE002A391E /* SZDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4E7204D2CFE002A391E /* SZDataModel.m */; };
+		7277A4EB204D2D69002A391E /* SZTrendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4EA204D2D69002A391E /* SZTrendsCell.m */; };
+		7277A4EF204D2DC9002A391E /* SZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277A4EE204D2DC9002A391E /* SZUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C51F676C080E22DDFE4900D /* Pods-TrendsCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendsCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendsCell/Pods-TrendsCell.debug.xcconfig"; sourceTree = "<group>"; };
+		705CA82A5D2AB5E696221A31 /* libPods-TrendsCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrendsCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277A4AF204D2C5E002A391E /* TrendsCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendsCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277A4B2204D2C5E002A391E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7277A4B3204D2C5E002A391E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		7277A4D2204D2C5E002A391E /* TrendsCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendsCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277A4D6204D2C5E002A391E /* TrendsCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsCellUITests.m; sourceTree = "<group>"; };
 		7277A4D8204D2C5E002A391E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7277A4E6204D2CFE002A391E /* SZDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZDataModel.h; sourceTree = "<group>"; };
+		7277A4E7204D2CFE002A391E /* SZDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZDataModel.m; sourceTree = "<group>"; };
+		7277A4E9204D2D69002A391E /* SZTrendsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZTrendsCell.h; sourceTree = "<group>"; };
+		7277A4EA204D2D69002A391E /* SZTrendsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZTrendsCell.m; sourceTree = "<group>"; };
+		7277A4ED204D2DC9002A391E /* SZUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUtils.h; sourceTree = "<group>"; };
+		7277A4EE204D2DC9002A391E /* SZUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUtils.m; sourceTree = "<group>"; };
+		C6F0C8242369CC1AAF762428 /* Pods-TrendsCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendsCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrendsCell/Pods-TrendsCell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FFDD117702D6D7625E2CEB /* libPods-TrendsCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				7277A4CA204D2C5E002A391E /* TrendsCellTests */,
 				7277A4D5204D2C5E002A391E /* TrendsCellUITests */,
 				7277A4B0204D2C5E002A391E /* Products */,
+				A458185A3C60B7DBB346C8DA /* Pods */,
+				EFDCCC9177F1947E90085583 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +117,9 @@
 		7277A4B1204D2C5E002A391E /* TrendsCell */ = {
 			isa = PBXGroup;
 			children = (
+				7277A4EC204D2DB2002A391E /* Support */,
+				7277A4E4204D2C7E002A391E /* Model */,
+				7277A4E5204D2C7E002A391E /* View */,
 				7277A4B2204D2C5E002A391E /* AppDelegate.h */,
 				7277A4B3204D2C5E002A391E /* AppDelegate.m */,
 				7277A4B5204D2C5E002A391E /* ViewController.h */,
@@ -132,6 +151,50 @@
 			path = TrendsCellUITests;
 			sourceTree = "<group>";
 		};
+		7277A4E4204D2C7E002A391E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7277A4E6204D2CFE002A391E /* SZDataModel.h */,
+				7277A4E7204D2CFE002A391E /* SZDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7277A4E5204D2C7E002A391E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7277A4E9204D2D69002A391E /* SZTrendsCell.h */,
+				7277A4EA204D2D69002A391E /* SZTrendsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7277A4EC204D2DB2002A391E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7277A4ED204D2DC9002A391E /* SZUtils.h */,
+				7277A4EE204D2DC9002A391E /* SZUtils.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A458185A3C60B7DBB346C8DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C51F676C080E22DDFE4900D /* Pods-TrendsCell.debug.xcconfig */,
+				C6F0C8242369CC1AAF762428 /* Pods-TrendsCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFDCCC9177F1947E90085583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705CA82A5D2AB5E696221A31 /* libPods-TrendsCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7277A4DB204D2C5E002A391E /* Build configuration list for PBXNativeTarget "TrendsCell" */;
 			buildPhases = (
+				EC6E04D4FFA136DA5EE1ECF9 /* [CP] Check Pods Manifest.lock */,
 				7277A4AB204D2C5E002A391E /* Sources */,
 				7277A4AC204D2C5E002A391E /* Frameworks */,
 				7277A4AD204D2C5E002A391E /* Resources */,
+				FA3DE6D60738F4BABE2F3CFD /* [CP] Embed Pods Frameworks */,
+				A56635EA8A22F603EEA2D24C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,11 +326,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A56635EA8A22F603EEA2D24C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrendsCell/Pods-TrendsCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6E04D4FFA136DA5EE1ECF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrendsCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3DE6D60738F4BABE2F3CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrendsCell/Pods-TrendsCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7277A4AB204D2C5E002A391E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7277A4EF204D2DC9002A391E /* SZUtils.m in Sources */,
+				7277A4EB204D2D69002A391E /* SZTrendsCell.m in Sources */,
+				7277A4E8204D2CFE002A391E /* SZDataModel.m in Sources */,
 				7277A4B7204D2C5E002A391E /* ViewController.m in Sources */,
 				7277A4C2204D2C5E002A391E /* main.m in Sources */,
 				7277A4B4204D2C5E002A391E /* AppDelegate.m in Sources */,
@@ -428,6 +548,7 @@
 		};
 		7277A4DC204D2C5E002A391E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C51F676C080E22DDFE4900D /* Pods-TrendsCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +562,7 @@
 		};
 		7277A4DD204D2C5E002A391E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F0C8242369CC1AAF762428 /* Pods-TrendsCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
